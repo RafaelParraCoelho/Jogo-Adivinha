@@ -1,34 +1,38 @@
-# Jogo da Adivinhação em Python
+# Python Number Guessing Game
 
-Este é um jogo simples onde você tenta adivinhar um número entre 1 e 100.
+This is a simple game where you try to guess a number between 1 and 100.
 
-## Como jogar
+## How to Play
 
-1. Execute o jogo com:
+1. Run the game with:
 
-   python nome_do_arquivo.py
+   ```bash
+   python your_file_name.py
+   ```
 
-2. Dê palpites até acertar o número secreto.
-3. O jogo mostrará quantas tentativas você usou.
-4. Os resultados são salvos em \`resultados.csv\` com data e tentativas.
-5. Um gráfico é exibido mostrando sua evolução ao longo do tempo.
+2. Keep guessing until you find the secret number.  
+3. The game will show how many attempts you took.  
+4. Results are saved in `resultados.csv` with the date and number of attempts.  
+5. A chart is displayed showing your performance over time.
 
-## Requisitos
+## Requirements
 
 - Python 3
 - pandas
 - matplotlib
 
-Instale os pacotes com:
+Install the packages with:
 
-   pip install pandas matplotlib
+```bash
+pip install pandas matplotlib
+```
 
-## Arquivos gerados
+## Generated Files
 
-- resultados.csv: histórico das suas partidas
+- `resultados.csv`: history of your game sessions
 
-## Recursos usados
+## Key Features
 
-- Programação orientada a objetos (classes)
-- Manipulação de CSV com pandas
-- Gráficos com matplotlib
+- Object-Oriented Programming (classes)
+- CSV handling with pandas
+- Visualizations with matplotlib
